@@ -39,7 +39,7 @@
 .side ul{
     font-size: 1.5vw;
     display: flex;
-    margin: 4% 10%;
+    margin: 4% 5%;
 }
 .side ul li{
     text-decoration: none;
@@ -222,6 +222,16 @@ color: white;
     font-size: 2vw;
     width: 50%;
     background-color: white;
+}
+.form div input[type=button], input[type=submit], input[type=reset]{
+    background-color: red;
+    border-color:white;
+    color: white;
+    border-radius: 10vw;
+    padding: 1vw;
+    text-decoration: none;
+    margin: 1px 10px;
+    cursor: pointer;
 }
 .info{
     background-color:white;
