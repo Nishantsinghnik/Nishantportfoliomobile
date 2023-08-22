@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    width: 100%;
+    background-size:cover ; 
+    background-position: center;
+}
+.top{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+.name{
+   display: flex;
+    width: 50%;
+}
+.name img{
+    margin: 1% 2%;
+    width: 10%;
+    border-radius: 50%;
+}
+.name img:hover{
+    transform: scale(1.5);
+}
+.name h1{
+    align-items: center;
+    color: #ebe9e9;
+    margin: 2.5% 2% ;
+    font-size: 3vw;
+}
+.side{
+   
+   display: flex;
+    width: 50%;
+}
+.side ul{
+    font-size: 1.5vw;
+    display: flex;
+    margin: 4% 10%;
+}
+.side ul li{
+    text-decoration: none;
+    margin: 0% 20%;
+}
+.side ul li a{
+    color: #ebe9e9;
+    text-decoration: none;
+}
+.side ul li a:hover{
+    font-size: 2vw;
+    color: #ff0000;
+}
+
+body {
+    background:white;
+    color: black;
+}
+
+.left img{
+    width: 30vw;
+    height: 40vw;
+    margin: 5vw;
+    border-radius: 10%
+}
+.first{
+    display: flex;  
+
+}
+.first div{
+    width: 50%;
+}
+.right{
+    padding: 5% 5%;
+    font-size:4vw;
+}
+
+.right h1{
+    color: red;
+}
+.right h6{
+    font-size: 1rem;
+    padding: 3vh 0vh;
+    color: rgb(159, 159, 159);
+}
+.right button{
+    border-radius: 100vh;
+    background-color:black;
+    color: white;
+    font-size: 2vw;
+    border: none;
+        width: 150%;
+}
+.right button:hover{
+background-color:red;
+color: black;
+}
+
+.break hr{
+background: black;
+height: 5px;
+margin: 0% 3%;
+}
+
+.second h1{
+   font-size: 5vw;
+    text-align: center;
+    width: 100%;
+}
+
+.third{
+   
+   display: flex;
+   width: 100%;
+  
+}
+.third div{
+    color: white;
+    margin: 0 2%;
+    background-color: black;
+    border-radius: 5vh;
+    height: 50vw;
+    width: 30%;
+}
+.third h1{
+    align-items: center;
+    font-size: 3vw;
+    color: #ff0000;
+    padding: 8vw 18%;
+}
+.third p{
+    font-size:1.5vw;
+    padding: 1vw 5%;
+}
+.forth{
+    text-align: center;
+    font-size: 4vw;
+    width: 100%;
+    
+}
+
+.about{
+    display: flex;
+    width: 100%;
+  
+background-color: black;
+}
+.img{
+    width: 30%;
+
+}
+.img img{
+   
+    width: 50vw;
+
+}
+.me{
+
+    margin: 4vw 20vw; 
+
+    width: 70%;
+}
+.me h1{
+    font-size: 2.5vw;
+}
+.me p{
+    font-size: 2vw;
+}
+.me div{
+    margin: 2vw 2vw;
+}
+.me div button{ 
+    font-size: 1vw;
+    color: black;
+    background-color: red;
+    margin: px;
+}
+.me p{
+    
+    color: white;
+}
+
+
+
+.contact h1{
+    color:black;
+   width: 100%;
+    text-align: center;
+    font-size: 4vw;
+  
+}
+.data{
+    display: flex;
+}
+.form{
+    padding: 5vw 5vw;
+    width: 50%;
+    color:white;
+    background-color: black;
+    color:red;
+    font-size: 2vw;
+}
+.form div{
+    margin: 5vw 0%;
+    font-size: 2vw;
+}
+.form input{
+
+    font-size: 2vw;
+    border-color :black;
+background-color:white;
+}
+.submit submit :hover{
+    background-color: red;
+color: white;
+
+}
+
+.form textarea{
+    font-size: 2vw;
+    width: 50%;
+    background-color: white;
+}
+.info{
+    background-color:white;
+    width: 50%;
+}
+.info img{
+    
+    height: 9vw;
+    padding: 1vw;
+}
+.info img:hover{
+    transform: scale(1.5);
+}
+.info h1{
+    font-size: 2vw;
+}
+.linkedin{
+display: flex;
+align-items: center;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+}
+.youtube{
+    display: flex;
+    align-items: center;
+}
+.twitter{
+    display: flex;
+    align-items: center;
+}
+.call{
+    display: flex;
+    align-items: center;
+}
+.whatsapp{
+    display: flex;
+    align-items: center;
+}
+.github{
+    display: flex;
+    align-items: center;
+}
+.footer{
+    background-color:black;
+    display: flex;
+    width: 100%;
+    color: white;
+}
+.footer div{
+    font-size: 1vw;
+    display: flex;
+    
+}
+.footer img{
+    margin: 3px 5px ;
+    width: 4vw;
+}
+#msg{
+    color:rgb(117, 116, 115);
+    margin-top: -50px; 
+    display: block;
+}
+
+
+
